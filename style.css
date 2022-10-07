@@ -60,17 +60,24 @@ section {
   justify-content: center;
   align-items: center;
   padding: 100px;
+  background-image: url(pictures/font.jpg);
 }
 .logoText {
   position: absolute;
   top: 40px;
   left: 100px;
-  font-size: 1.2em;
-  text-transform: uppercase;
+  font-family: "Pacifico", cursive;
+  font-size: 3.2em;
   letter-spacing: 1px;
   background: #333;
   color: #fff;
   padding: 0 5px;
+  line-height: 1.5;
+}
+.contentBx .logoText span {
+  font-size: 34px;
+  font-family: "Pacifico", cursive;
+  line-height: 0.5;
 }
 .banner .contentBx h4 {
   font-size: 1.5em;
@@ -78,7 +85,7 @@ section {
   font-weight: 300;
 }
 .banner .contentBx h4 span {
-  color: #00bcd4;
+  color: #506c38;
   font-size: 1.5em;
   font-weight: 700;
 }
@@ -93,7 +100,7 @@ p {
   font-weight: 300;
 }
 .btn {
-  background: #00bcd4;
+  background: #506c38;
   color: #fff;
   padding: 10px 30px;
   display: inline-block;
@@ -134,7 +141,7 @@ p {
   text-transform: uppercase;
 }
 .sidebar ul li a:hover {
-  color: #00bcd4;
+  color: #506c38;
 }
 .csi {
   position: absolute;
@@ -163,7 +170,7 @@ p {
 }
 .title h2 {
   position: relative;
-  color: #00bcd4;
+  color: #506c38;
   font-size: 1.8em;
   font-weight: 700;
   letter-spacing: 1px;
@@ -210,6 +217,9 @@ p {
 .about .content .imgBx img {
   max-width: 100%;
 }
+.servises {
+  background: url(pictures/font.jpg);
+}
 .servises .content {
   display: flex;
   justify-content: center;
@@ -234,6 +244,7 @@ p {
 .servises .content .servisesBx:hover img {
   filter: invert(1);
 }
+
 .servises .content .servisesBx h2 {
   margin-top: 20px;
   margin-bottom: 10px;
@@ -244,6 +255,7 @@ p {
 .servises .content .servisesBx:hover h2 {
   color: #fff;
 }
+
 .servises .content .servisesBx p {
   margin: 0;
   transition: 0.5s;
@@ -338,7 +350,7 @@ p {
   height: 100px;
 }
 .contact .contactForm .row input[type="submit"] {
-  background: #00bcd4;
+  background: #506c38;
   color: #fff;
   padding: 10px 30px;
   display: inline-block;
