@@ -1,4 +1,3 @@
-@import url(`https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap`);
 * {
   margin: 0;
   padding: 0;
@@ -69,7 +68,7 @@ section {
   font-family: "Pacifico", cursive;
   font-size: 3.2em;
   letter-spacing: 1px;
-  background: #333;
+
   color: #fff;
   padding: 0 5px;
   line-height: 1.5;
@@ -81,7 +80,7 @@ section {
 }
 .banner .contentBx h4 {
   font-size: 1.5em;
-  color: #333;
+  color: #000;
   font-weight: 300;
 }
 .banner .contentBx h4 span {
@@ -91,11 +90,12 @@ section {
 }
 .banner .contentBx h2 {
   font-size: 3em;
+
   color: #333;
   line-height: 1em;
 }
 p {
-  font-size: 1.1em;
+  font-size: 1.2em;
   margin: 20px 0;
   font-weight: 300;
 }
@@ -171,13 +171,21 @@ p {
 .title h2 {
   position: relative;
   color: #506c38;
-  font-size: 1.8em;
+  font-size: 2.5em;
+
   font-weight: 700;
   letter-spacing: 1px;
 }
 .title p {
   max-width: 700px;
   display: inline-block;
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+.title a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
 }
 .title h2::before {
   content: "";
@@ -255,6 +263,13 @@ p {
 .servises .content .servisesBx:hover h2 {
   color: #fff;
 }
+.servises .content .servisesBx a {
+  text-decoration: none;
+  color: #000;
+}
+.servises .content .servisesBx:hover a {
+  color: #fff;
+}
 
 .servises .content .servisesBx p {
   margin: 0;
@@ -262,6 +277,9 @@ p {
 }
 .servises .content .servisesBx:hover p {
   color: #fff;
+}
+.work {
+  background-image: url(pictures/font.jpg);
 }
 .work .content {
   display: flex;
@@ -310,6 +328,9 @@ p {
   letter-spacing: 1px;
   font-size: 1em;
 }
+#btn {
+  margin-left: 900px;
+}
 .contact {
   background: #000;
   display: flex;
@@ -317,47 +338,24 @@ p {
   align-items: center;
   flex-direction: column;
 }
-.contact .contactForm {
-  position: relative;
-  width: 700px;
-  margin-top: 20px;
-}
-.contact .contactForm .row {
-  width: 100%;
+
+.contact .content {
   display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
 }
-.contact .contactForm .row .col50 {
-  width: 50%;
-  margin: 10px;
+.contact .content .textBx {
+  min-width: 49%;
+  width: 49%;
 }
-.contact .contactForm .row .col100 {
-  width: 100%;
-  margin: 10px;
-  text-align: center;
-}
-.contact .contactForm .row input,
-.contact .contactForm .row textarea {
-  width: 100%;
-  padding: 10px;
-  border: none;
-  outline: none;
-  background: #111;
+.contact .content .textBx p {
   color: #fff;
-  font-size: 16px;
-  resize: none;
 }
-.contact .contactForm .row textarea {
-  height: 100px;
+.contact .content .imgBx {
+  margin-left: 40px;
 }
-.contact .contactForm .row input[type="submit"] {
-  background: #506c38;
-  color: #fff;
-  padding: 10px 30px;
-  display: inline-block;
-  font-weight: 500;
-  letter-spacing: 2px;
-  cursor: pointer;
-  max-width: 150px;
+.contact .content .imgBx img {
+  max-width: 100%;
 }
 .copyright {
   color: #fff;
