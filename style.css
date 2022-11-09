@@ -357,6 +357,11 @@ p {
 .contact .content .imgBx img {
   max-width: 100%;
 }
+.contact ul {
+  color: #fff;
+  list-style: none;
+}
+
 .copyright {
   color: #fff;
   background: #111;
@@ -381,5 +386,41 @@ p {
   }
   .toggle {
     right: 40px;
+  }
+}
+.csi {
+  left: 40px;
+}
+section {
+  padding: 40px;
+}
+.about .content {
+  flex-direction: column;
+}
+.about .content .textBx {
+  min-width: 100%;
+  width: 100%;
+}
+.about .content {
+  margin-top: 0;
+}
+.about .content .imgBx {
+  margin-left: 0;
+}
+.servises .content .servisesBx {
+  padding: 30px 20px;
+  max-width: 340px;
+  margin: 10px;
+}
+.sidebar ul li a {
+  font-size: 1.5em;
+}
+@media (max-width: 500px) {
+  .servises .content .servisesBx,
+  .work .content .workBx {
+    padding: 30px 20px;
+    max-width: 100%;
+    width: 100%;
+    margin: 10px 0;
   }
 }
